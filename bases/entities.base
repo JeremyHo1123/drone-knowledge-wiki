@@ -1,0 +1,30 @@
+filters:
+  and:
+    - property: type
+      operator: ==
+      value: "entity"
+
+formulas:
+  icon: 'if(has_conflict, "⚠️", "")'
+  source_count: "length(sources)"
+  age_days: "round((now() - updated).days)"
+
+views:
+  - type: table
+    name: All entities (grouped by tag)
+    groupBy: tags
+    sort:
+      - property: title
+        direction: ASC
+    properties:
+      - title
+      - icon
+      - status
+      - source_count
+      - updated
+  - type: cards
+    name: Card view
+    properties:
+      - title
+      - tags
+      - status

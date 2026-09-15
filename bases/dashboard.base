@@ -1,0 +1,69 @@
+filters:
+  and:
+    - property: type
+      operator: "!="
+      value: "document"
+    - property: type
+      operator: "!="
+      value: "docs-index"
+
+formulas:
+  age_days: "round((now() - updated).days)"
+  is_recent: "age_days <= 7"
+  has_conflicts: 'has_conflict == "yes"'
+  needs_attention: 'has_conflicts or status == "stale" or age_days > 90'
+  status_icon: 'if(has_conflicts, "⚠️", if(status == "stale", "🧓", if(is_recent, "🆕", "")))'
+
+views:
+  - type: table
+    name: 📊 All pages (grouped by type)
+    groupBy: type
+    sort:
+      - property: updated
+        direction: DESC
+    properties:
+      - title
+      - status_icon
+      - status
+      - tags
+      - updated
+
+  - type: table
+    name: 🚨 Needs attention (conflicts / outdated / stale)
+    filter:
+      property: needs_attention
+      operator: ==
+      value: true
+    sort:
+      - property: age_days
+        direction: DESC
+    properties:
+      - title
+      - status_icon
+      - type
+      - status
+      - has_conflict
+      - age_days
+
+  - type: table
+    name: 🆕 Activity in the last 7 days
+    filter:
+      property: is_recent
+      operator: ==
+      value: true
+    sort:
+      - property: updated
+        direction: DESC
+    properties:
+      - title
+      - type
+      - tags
+      - updated
+
+  - type: cards
+    name: 📑 Grouped by type
+    groupBy: type
+    properties:
+      - title
+      - tags
+      - status_icon

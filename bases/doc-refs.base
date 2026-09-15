@@ -1,0 +1,25 @@
+filters:
+  and:
+    - property: doc_version_checked
+      operator: "!="
+      value: null
+    - property: type
+      operator: "!="
+      value: "document"
+
+formulas:
+  age_days: "round((now() - updated).days)"
+
+views:
+  - type: table
+    name: Pages citing documentation (grouped by documentation version)
+    groupBy: doc_version_checked
+    sort:
+      - property: age_days
+        direction: DESC
+    properties:
+      - title
+      - type
+      - doc_version_checked
+      - updated
+      - status

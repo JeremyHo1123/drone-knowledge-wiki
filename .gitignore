@@ -1,0 +1,17 @@
+# Obsidian: per-user workspace state that changes every time Obsidian opens
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.trash/
+
+# Claude Code: personal local settings (shared settings live in .claude/settings.json)
+.claude/settings.local.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Operating system clutter
+.DS_Store
+Thumbs.db
+desktop.ini

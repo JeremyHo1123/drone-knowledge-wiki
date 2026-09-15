@@ -1,0 +1,62 @@
+---
+title: "Test MC_08 - DSHOT ESC"
+type: document
+doc_set: PX4
+doc_version: main
+section: test_cards
+source_url: "https://docs.px4.io/main/en/test_cards/mc_08_dshot"
+upstream_repo: "PX4/PX4-Autopilot"
+upstream_path: "test_cards/mc_08_dshot.md"
+upstream_commit: "9467506bff09ffe2b4ca5e509c12f9f9b9a1eb55"
+ingested: 2026-07-28
+tags:
+  - docs/px4
+  - docs/px4/test-cards
+---
+
+# Test MC_08 - DSHOT ESC
+
+## Objective
+
+Regression test for DSHOT working with PX4
+
+## Preflight
+
+- Ensure vehicle is using a DSHOT ESC
+- Bidirectional DShot is configured (BDShot150/300/600 selected in [Actuator Configuration](../config/actuators.md))
+- Parameter [DSHOT_TEL_CFG](../advanced_config/parameter_reference.md#DSHOT_TEL_CFG) is configured (if ESC supports telemetry)
+- Parameter [SDLOG_PROFILE](../advanced_config/parameter_reference.md#SDLOG_PROFILE) has Debug (`5`) checked
+
+## Flight Tests
+
+❏ [Stabilized mode](../flight_modes_mc/manual_stabilized.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;❏ Takeoff in stabilized mode to ensure correct motor spin
+
+&nbsp;&nbsp;&nbsp;&nbsp;❏ Pitch/Roll/Yaw response 1:1
+
+&nbsp;&nbsp;&nbsp;&nbsp;❏ Throttle response 1:1
+
+❏ [Position mode](../flight_modes_mc/position.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;❏ Horizontal position should hold current value with stick centered
+
+&nbsp;&nbsp;&nbsp;&nbsp;❏ Vertical position should hold current value with stick centered
+
+&nbsp;&nbsp;&nbsp;&nbsp;❏ Throttle response set to climb/descent rate
+
+&nbsp;&nbsp;&nbsp;&nbsp;❏ Pitch/Roll/Yaw response set to pitch/roll/yaw rates
+
+## Landing
+
+❏ Land in either Position or Altitude mode with the throttle below 40%
+
+❏ Upon touching ground, copter should disarm automatically within 2 seconds (default: see [COM_DISARM_LAND](../advanced_config/parameter_reference.md#COM_DISARM_LAND))
+
+## Expected Results
+
+- Download flight logs
+- Load into Data Plot Juggler
+- Ensure data is logged for `esc_status`/`esc.0x`/`esc_rpm`
+
+  ![Reference frames](https://raw.githubusercontent.com/PX4/PX4-Autopilot/main/docs/assets/test_cards/dshot_log_output.png)

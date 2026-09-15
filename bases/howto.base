@@ -1,0 +1,33 @@
+filters:
+  and:
+    - property: type
+      operator: ==
+      value: "howto"
+
+formulas:
+  age_days: "round((now() - updated).days)"
+  doc_pinned: 'if(doc_version_checked, "📌", "⚠️ no version")'
+
+views:
+  - type: table
+    name: How-to guides (grouped by tag)
+    groupBy: tags
+    sort:
+      - property: updated
+        direction: DESC
+    properties:
+      - title
+      - doc_pinned
+      - doc_version_checked
+      - status
+      - age_days
+  - type: table
+    name: Missing documentation version (cannot tell whether stale after doc updates)
+    filter:
+      property: doc_version_checked
+      operator: ==
+      value: null
+    properties:
+      - title
+      - tags
+      - updated

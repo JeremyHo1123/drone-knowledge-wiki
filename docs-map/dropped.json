@@ -1,0 +1,786 @@
+[
+  {
+    "doc_set": "MAVSDK",
+    "upstream_path": "genindex.md",
+    "url": "http://mavsdk-python-docs.s3-website.eu-central-1.amazonaws.com/genindex.html",
+    "self_url": "http://mavsdk-python-docs.s3-website.eu-central-1.amazonaws.com/genindex.html",
+    "reason": "Sphinx auto-generated symbol index (links only; the content is on each plugin page)",
+    "redirect_to": ""
+  },
+  {
+    "doc_set": "MAVSDK",
+    "upstream_path": "plugins/index.md",
+    "url": "http://mavsdk-python-docs.s3-website.eu-central-1.amazonaws.com/plugins/index.html",
+    "self_url": "http://mavsdk-python-docs.s3-website.eu-central-1.amazonaws.com/plugins/index.html",
+    "reason": "no substance (prose=13, links=41)",
+    "redirect_to": ""
+  },
+  {
+    "doc_set": "MAVSDK",
+    "upstream_path": "py-modindex.md",
+    "url": "http://mavsdk-python-docs.s3-website.eu-central-1.amazonaws.com/py-modindex.html",
+    "self_url": "http://mavsdk-python-docs.s3-website.eu-central-1.amazonaws.com/py-modindex.html",
+    "reason": "Sphinx module index (links only)",
+    "redirect_to": ""
+  },
+  {
+    "doc_set": "MAVSDK",
+    "upstream_path": "search.md",
+    "url": "http://mavsdk-python-docs.s3-website.eu-central-1.amazonaws.com/search.html",
+    "self_url": "http://mavsdk-python-docs.s3-website.eu-central-1.amazonaws.com/search.html",
+    "reason": "site search page (no content; rendered by JavaScript)",
+    "redirect_to": ""
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "SUMMARY.md",
+    "url": "https://docs.px4.io/main/en/SUMMARY",
+    "self_url": "https://docs.px4.io/main/en/SUMMARY",
+    "reason": "site navigation",
+    "redirect_to": ""
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "_sidebar.md",
+    "url": "https://docs.px4.io/main/en/_sidebar",
+    "self_url": "https://docs.px4.io/main/en/_sidebar",
+    "reason": "partial/nav",
+    "redirect_to": ""
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "advanced/index.md",
+    "url": "https://docs.px4.io/main/en/advanced/",
+    "self_url": "https://docs.px4.io/main/en/advanced/",
+    "reason": "no substance (prose=0, links=0)",
+    "redirect_to": ""
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "advanced/neural_networks.md",
+    "url": "https://docs.px4.io/main/en/neural_networks/mc_neural_network_control",
+    "self_url": "https://docs.px4.io/main/en/advanced/neural_networks",
+    "reason": "redirect stub",
+    "redirect_to": "neural_networks/mc_neural_network_control.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "advanced_features/index.md",
+    "url": "https://docs.px4.io/main/en/advanced_features/",
+    "self_url": "https://docs.px4.io/main/en/advanced_features/",
+    "reason": "no substance (prose=95, links=11)",
+    "redirect_to": ""
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "advanced_features/rtk-gps.md",
+    "url": "https://docs.px4.io/main/en/gps_compass/rtk_gps",
+    "self_url": "https://docs.px4.io/main/en/advanced_features/rtk-gps",
+    "reason": "redirect stub",
+    "redirect_to": "gps_compass/rtk_gps.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "advanced_features/traffic_avoidance_adsb.md",
+    "url": "https://docs.px4.io/main/en/peripherals/adsb_flarm",
+    "self_url": "https://docs.px4.io/main/en/advanced_features/traffic_avoidance_adsb",
+    "reason": "redirect stub",
+    "redirect_to": "peripherals/adsb_flarm.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "advanced_features/traffic_avoidance_utm.md",
+    "url": "https://docs.px4.io/main/en/peripherals/adsb_flarm",
+    "self_url": "https://docs.px4.io/main/en/advanced_features/traffic_avoidance_utm",
+    "reason": "redirect stub",
+    "redirect_to": "peripherals/adsb_flarm.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "assembly/_assembly.md",
+    "url": "https://docs.px4.io/main/en/assembly/_assembly",
+    "self_url": "https://docs.px4.io/main/en/assembly/_assembly",
+    "reason": "partial/nav",
+    "redirect_to": ""
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "assembly/quick_start_cuav_v5_nano.md",
+    "url": "https://docs.px4.io/main/en/flight_controller/autopilot_discontinued",
+    "self_url": "https://docs.px4.io/main/en/assembly/quick_start_cuav_v5_nano",
+    "reason": "redirect stub",
+    "redirect_to": "flight_controller/autopilot_discontinued.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "assembly/quick_start_cuav_v5_plus.md",
+    "url": "https://docs.px4.io/main/en/flight_controller/autopilot_discontinued",
+    "self_url": "https://docs.px4.io/main/en/assembly/quick_start_cuav_v5_plus",
+    "reason": "redirect stub",
+    "redirect_to": "flight_controller/autopilot_discontinued.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "complete_vehicles/crazyflie2.md",
+    "url": "https://docs.px4.io/main/en/flight_controller/autopilot_discontinued",
+    "self_url": "https://docs.px4.io/main/en/complete_vehicles/crazyflie2",
+    "reason": "redirect stub",
+    "redirect_to": "flight_controller/autopilot_discontinued.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "complete_vehicles/crazyflie21.md",
+    "url": "https://docs.px4.io/main/en/complete_vehicles_mc/crazyflie21",
+    "self_url": "https://docs.px4.io/main/en/complete_vehicles/crazyflie21",
+    "reason": "redirect stub",
+    "redirect_to": "complete_vehicles_mc/crazyflie21.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "complete_vehicles/holybro_kopis2.md",
+    "url": "https://docs.px4.io/main/en/complete_vehicles_mc/holybro_kops2",
+    "self_url": "https://docs.px4.io/main/en/complete_vehicles/holybro_kopis2",
+    "reason": "redirect stub",
+    "redirect_to": "complete_vehicles_mc/holybro_kops2.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "complete_vehicles/mindracer210.md",
+    "url": "https://docs.px4.io/main/en/complete_vehicles_mc/mindracer210",
+    "self_url": "https://docs.px4.io/main/en/complete_vehicles/mindracer210",
+    "reason": "redirect stub",
+    "redirect_to": "complete_vehicles_mc/mindracer210.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "complete_vehicles/mindracer_BNF_RTF.md",
+    "url": "https://docs.px4.io/main/en/complete_vehicles_mc/mindracer_BNF_RTF",
+    "self_url": "https://docs.px4.io/main/en/complete_vehicles/mindracer_BNF_RTF",
+    "reason": "redirect stub",
+    "redirect_to": "complete_vehicles_mc/mindracer_BNF_RTF.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "complete_vehicles/modalai_starling.md",
+    "url": "https://docs.px4.io/main/en/complete_vehicles_mc/modalai_starling",
+    "self_url": "https://docs.px4.io/main/en/complete_vehicles/modalai_starling",
+    "reason": "redirect stub",
+    "redirect_to": "complete_vehicles_mc/modalai_starling.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "complete_vehicles/nanomind110.md",
+    "url": "https://docs.px4.io/main/en/complete_vehicles_mc/nanomind110",
+    "self_url": "https://docs.px4.io/main/en/complete_vehicles/nanomind110",
+    "reason": "redirect stub",
+    "redirect_to": "complete_vehicles_mc/nanomind110.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "complete_vehicles/px4_vision_kit.md",
+    "url": "https://docs.px4.io/main/en/complete_vehicles_mc/px4_vision_kit",
+    "self_url": "https://docs.px4.io/main/en/complete_vehicles/px4_vision_kit",
+    "reason": "redirect stub",
+    "redirect_to": "complete_vehicles_mc/px4_vision_kit.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "complete_vehicles_mc/crazyflie2.md",
+    "url": "https://docs.px4.io/main/en/flight_controller/autopilot_discontinued",
+    "self_url": "https://docs.px4.io/main/en/complete_vehicles_mc/crazyflie2",
+    "reason": "redirect stub",
+    "redirect_to": "flight_controller/autopilot_discontinued.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "complete_vehicles_mc/mindracer_BNF_RTF.md",
+    "url": "https://docs.px4.io/main/en/complete_vehicles_mc/mindracer_BNF_RTF",
+    "self_url": "https://docs.px4.io/main/en/complete_vehicles_mc/mindracer_BNF_RTF",
+    "reason": "no substance (prose=77, links=2)",
+    "redirect_to": ""
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "computer_vision/obstacle_avoidance.md",
+    "url": "https://docs.px4.io/main/en/computer_vision/path_planning_interface",
+    "self_url": "https://docs.px4.io/main/en/computer_vision/obstacle_avoidance",
+    "reason": "redirect stub",
+    "redirect_to": "computer_vision/path_planning_interface.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "computer_vision/safe_landing.md",
+    "url": "https://docs.px4.io/main/en/computer_vision/path_planning_interface",
+    "self_url": "https://docs.px4.io/main/en/computer_vision/safe_landing",
+    "reason": "redirect stub",
+    "redirect_to": "computer_vision/path_planning_interface.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "concept/index.md",
+    "url": "https://docs.px4.io/main/en/concept/",
+    "self_url": "https://docs.px4.io/main/en/concept/",
+    "reason": "no substance (prose=87, links=1)",
+    "redirect_to": ""
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "config/_autotune.md",
+    "url": "https://docs.px4.io/main/en/config/_autotune",
+    "self_url": "https://docs.px4.io/main/en/config/_autotune",
+    "reason": "partial/nav",
+    "redirect_to": ""
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "config/operations.md",
+    "url": "https://docs.px4.io/main/en/config/operations",
+    "self_url": "https://docs.px4.io/main/en/config/operations",
+    "reason": "no substance (prose=107, links=6)",
+    "redirect_to": ""
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "debug/index.md",
+    "url": "https://docs.px4.io/main/en/debug/",
+    "self_url": "https://docs.px4.io/main/en/debug/",
+    "reason": "no substance (prose=0, links=0)",
+    "redirect_to": ""
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "dev_setup/dev_env_linux.md",
+    "url": "https://docs.px4.io/main/en/dev_setup/dev_env_linux_ubuntu",
+    "self_url": "https://docs.px4.io/main/en/dev_setup/dev_env_linux",
+    "reason": "redirect stub",
+    "redirect_to": "dev_setup/dev_env_linux_ubuntu.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "dev_setup/dev_env_windows.md",
+    "url": "https://docs.px4.io/main/en/dev_setup/dev_env_windows_wsl",
+    "self_url": "https://docs.px4.io/main/en/dev_setup/dev_env_windows",
+    "reason": "redirect stub",
+    "redirect_to": "dev_setup/dev_env_windows_wsl.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "features_fw/index.md",
+    "url": "https://docs.px4.io/main/en/features_fw/",
+    "self_url": "https://docs.px4.io/main/en/features_fw/",
+    "reason": "no substance (prose=80, links=1)",
+    "redirect_to": ""
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "features_mc/index.md",
+    "url": "https://docs.px4.io/main/en/features_mc/",
+    "self_url": "https://docs.px4.io/main/en/features_mc/",
+    "reason": "no substance (prose=81, links=5)",
+    "redirect_to": ""
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_controller/arkpab.md",
+    "url": "https://docs.px4.io/main/en/flight_controller/ark_pab",
+    "self_url": "https://docs.px4.io/main/en/flight_controller/arkpab",
+    "reason": "redirect stub",
+    "redirect_to": "flight_controller/ark_pab.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_controller/arkv6x.md",
+    "url": "https://docs.px4.io/main/en/flight_controller/ark_v6x",
+    "self_url": "https://docs.px4.io/main/en/flight_controller/arkv6x",
+    "reason": "redirect stub",
+    "redirect_to": "flight_controller/ark_v6x.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_controller/auav_x2.md",
+    "url": "https://docs.px4.io/main/en/flight_controller/autopilot_discontinued",
+    "self_url": "https://docs.px4.io/main/en/flight_controller/auav_x2",
+    "reason": "redirect stub",
+    "redirect_to": "flight_controller/autopilot_discontinued.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_controller/cuav_v5.md",
+    "url": "https://docs.px4.io/main/en/flight_controller/autopilot_discontinued",
+    "self_url": "https://docs.px4.io/main/en/flight_controller/cuav_v5",
+    "reason": "redirect stub",
+    "redirect_to": "flight_controller/autopilot_discontinued.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_controller/cuav_v5_nano.md",
+    "url": "https://docs.px4.io/main/en/flight_controller/autopilot_discontinued",
+    "self_url": "https://docs.px4.io/main/en/flight_controller/cuav_v5_nano",
+    "reason": "redirect stub",
+    "redirect_to": "flight_controller/autopilot_discontinued.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_controller/cuav_v5_plus.md",
+    "url": "https://docs.px4.io/main/en/flight_controller/autopilot_discontinued",
+    "self_url": "https://docs.px4.io/main/en/flight_controller/cuav_v5_plus",
+    "reason": "redirect stub",
+    "redirect_to": "flight_controller/autopilot_discontinued.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_controller/cuav_x7.md",
+    "url": "https://docs.px4.io/main/en/flight_controller/autopilot_discontinued",
+    "self_url": "https://docs.px4.io/main/en/flight_controller/cuav_x7",
+    "reason": "redirect stub",
+    "redirect_to": "flight_controller/autopilot_discontinued.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_controller/holybro_pix32.md",
+    "url": "https://docs.px4.io/main/en/flight_controller/autopilot_discontinued",
+    "self_url": "https://docs.px4.io/main/en/flight_controller/holybro_pix32",
+    "reason": "redirect stub",
+    "redirect_to": "flight_controller/autopilot_discontinued.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_controller/kakutef7.md",
+    "url": "https://docs.px4.io/main/en/flight_controller/autopilot_discontinued",
+    "self_url": "https://docs.px4.io/main/en/flight_controller/kakutef7",
+    "reason": "redirect stub",
+    "redirect_to": "flight_controller/autopilot_discontinued.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_controller/modalai_fc_v1.md",
+    "url": "https://docs.px4.io/main/en/flight_controller/autopilot_discontinued",
+    "self_url": "https://docs.px4.io/main/en/flight_controller/modalai_fc_v1",
+    "reason": "redirect stub",
+    "redirect_to": "flight_controller/autopilot_discontinued.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_controller/modalai_voxl_flight.md",
+    "url": "https://docs.px4.io/main/en/flight_controller/autopilot_discontinued",
+    "self_url": "https://docs.px4.io/main/en/flight_controller/modalai_voxl_flight",
+    "reason": "redirect stub",
+    "redirect_to": "flight_controller/autopilot_discontinued.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_controller/mro_x2.1.md",
+    "url": "https://docs.px4.io/main/en/flight_controller/autopilot_discontinued",
+    "self_url": "https://docs.px4.io/main/en/flight_controller/mro_x2.1",
+    "reason": "redirect stub",
+    "redirect_to": "flight_controller/autopilot_discontinued.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_controller/nxp_rddrone_fmuk66.md",
+    "url": "https://docs.px4.io/main/en/flight_controller/autopilot_discontinued",
+    "self_url": "https://docs.px4.io/main/en/flight_controller/nxp_rddrone_fmuk66",
+    "reason": "redirect stub",
+    "redirect_to": "flight_controller/autopilot_discontinued.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_controller/ocpoc_zynq.md",
+    "url": "https://docs.px4.io/main/en/flight_controller/autopilot_discontinued",
+    "self_url": "https://docs.px4.io/main/en/flight_controller/ocpoc_zynq",
+    "reason": "redirect stub",
+    "redirect_to": "flight_controller/autopilot_discontinued.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_controller/omnibus_f4_sd.md",
+    "url": "https://docs.px4.io/main/en/flight_controller/autopilot_discontinued",
+    "self_url": "https://docs.px4.io/main/en/flight_controller/omnibus_f4_sd",
+    "reason": "redirect stub",
+    "redirect_to": "flight_controller/autopilot_discontinued.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_controller/pixfalcon.md",
+    "url": "https://docs.px4.io/main/en/flight_controller/autopilot_discontinued",
+    "self_url": "https://docs.px4.io/main/en/flight_controller/pixfalcon",
+    "reason": "redirect stub",
+    "redirect_to": "flight_controller/autopilot_discontinued.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_controller/pixhack_v3.md",
+    "url": "https://docs.px4.io/main/en/flight_controller/autopilot_discontinued",
+    "self_url": "https://docs.px4.io/main/en/flight_controller/pixhack_v3",
+    "reason": "redirect stub",
+    "redirect_to": "flight_controller/autopilot_discontinued.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_controller/pixhawk.md",
+    "url": "https://docs.px4.io/main/en/flight_controller/autopilot_discontinued",
+    "self_url": "https://docs.px4.io/main/en/flight_controller/pixhawk",
+    "reason": "redirect stub",
+    "redirect_to": "flight_controller/autopilot_discontinued.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_controller/pixhawk3_pro.md",
+    "url": "https://docs.px4.io/main/en/flight_controller/autopilot_discontinued",
+    "self_url": "https://docs.px4.io/main/en/flight_controller/pixhawk3_pro",
+    "reason": "redirect stub",
+    "redirect_to": "flight_controller/autopilot_discontinued.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_controller/pixhawk4_mini.md",
+    "url": "https://docs.px4.io/main/en/flight_controller/autopilot_discontinued",
+    "self_url": "https://docs.px4.io/main/en/flight_controller/pixhawk4_mini",
+    "reason": "redirect stub",
+    "redirect_to": "flight_controller/autopilot_discontinued.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_controller/pixhawk_mini.md",
+    "url": "https://docs.px4.io/main/en/flight_controller/autopilot_discontinued",
+    "self_url": "https://docs.px4.io/main/en/flight_controller/pixhawk_mini",
+    "reason": "redirect stub",
+    "redirect_to": "flight_controller/autopilot_discontinued.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_modes/acro_fw.md",
+    "url": "https://docs.px4.io/main/en/flight_modes_fw/acro",
+    "self_url": "https://docs.px4.io/main/en/flight_modes/acro_fw",
+    "reason": "redirect stub",
+    "redirect_to": "flight_modes_fw/acro.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_modes/acro_mc.md",
+    "url": "https://docs.px4.io/main/en/flight_modes_mc/acro",
+    "self_url": "https://docs.px4.io/main/en/flight_modes/acro_mc",
+    "reason": "redirect stub",
+    "redirect_to": "flight_modes_mc/acro.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_modes/altitude_fw.md",
+    "url": "https://docs.px4.io/main/en/flight_modes_fw/altitude",
+    "self_url": "https://docs.px4.io/main/en/flight_modes/altitude_fw",
+    "reason": "redirect stub",
+    "redirect_to": "flight_modes_fw/altitude.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_modes/altitude_mc.md",
+    "url": "https://docs.px4.io/main/en/flight_modes_mc/altitude",
+    "self_url": "https://docs.px4.io/main/en/flight_modes/altitude_mc",
+    "reason": "redirect stub",
+    "redirect_to": "flight_modes_mc/altitude.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_modes/follow_me.md",
+    "url": "https://docs.px4.io/main/en/flight_modes_mc/follow_me",
+    "self_url": "https://docs.px4.io/main/en/flight_modes/follow_me",
+    "reason": "redirect stub",
+    "redirect_to": "flight_modes_mc/follow_me.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_modes/hold.md",
+    "url": "https://docs.px4.io/main/en/flight_modes_mc/hold",
+    "self_url": "https://docs.px4.io/main/en/flight_modes/hold",
+    "reason": "redirect stub",
+    "redirect_to": "flight_modes_mc/hold.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_modes/manual_fw.md",
+    "url": "https://docs.px4.io/main/en/flight_modes_fw/manual",
+    "self_url": "https://docs.px4.io/main/en/flight_modes/manual_fw",
+    "reason": "redirect stub",
+    "redirect_to": "flight_modes_fw/manual.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_modes/manual_stabilized_mc.md",
+    "url": "https://docs.px4.io/main/en/flight_modes_mc/manual_stabilized",
+    "self_url": "https://docs.px4.io/main/en/flight_modes/manual_stabilized_mc",
+    "reason": "redirect stub",
+    "redirect_to": "flight_modes_mc/manual_stabilized.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_modes/mission.md",
+    "url": "https://docs.px4.io/main/en/flight_modes_vtol/mission",
+    "self_url": "https://docs.px4.io/main/en/flight_modes/mission",
+    "reason": "redirect stub",
+    "redirect_to": "flight_modes_vtol/mission.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_modes/orbit.md",
+    "url": "https://docs.px4.io/main/en/flight_modes_mc/orbit",
+    "self_url": "https://docs.px4.io/main/en/flight_modes/orbit",
+    "reason": "redirect stub",
+    "redirect_to": "flight_modes_mc/orbit.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_modes/position_fw.md",
+    "url": "https://docs.px4.io/main/en/flight_modes_fw/position",
+    "self_url": "https://docs.px4.io/main/en/flight_modes/position_fw",
+    "reason": "redirect stub",
+    "redirect_to": "flight_modes_fw/position.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_modes/position_mc.md",
+    "url": "https://docs.px4.io/main/en/flight_modes_mc/position",
+    "self_url": "https://docs.px4.io/main/en/flight_modes/position_mc",
+    "reason": "redirect stub",
+    "redirect_to": "flight_modes_mc/position.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_modes/stabilized_fw.md",
+    "url": "https://docs.px4.io/main/en/flight_modes_fw/stabilized",
+    "self_url": "https://docs.px4.io/main/en/flight_modes/stabilized_fw",
+    "reason": "redirect stub",
+    "redirect_to": "flight_modes_fw/stabilized.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_modes/takeoff.md",
+    "url": "https://docs.px4.io/main/en/flight_modes_mc/takeoff",
+    "self_url": "https://docs.px4.io/main/en/flight_modes/takeoff",
+    "reason": "redirect stub",
+    "redirect_to": "flight_modes_mc/takeoff.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_modes_fw/offboard.md",
+    "url": "https://docs.px4.io/main/en/flight_modes/offboard",
+    "self_url": "https://docs.px4.io/main/en/flight_modes_fw/offboard",
+    "reason": "redirect stub",
+    "redirect_to": "flight_modes/offboard.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_modes_mc/offboard.md",
+    "url": "https://docs.px4.io/main/en/flight_modes/offboard",
+    "self_url": "https://docs.px4.io/main/en/flight_modes_mc/offboard",
+    "reason": "redirect stub",
+    "redirect_to": "flight_modes/offboard.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flight_modes_vtol/offboard.md",
+    "url": "https://docs.px4.io/main/en/flight_modes/offboard",
+    "self_url": "https://docs.px4.io/main/en/flight_modes_vtol/offboard",
+    "reason": "redirect stub",
+    "redirect_to": "flight_modes/offboard.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "flying/basic_flying.md",
+    "url": "https://docs.px4.io/main/en/flying/basic_flying_mc",
+    "self_url": "https://docs.px4.io/main/en/flying/basic_flying",
+    "reason": "redirect stub",
+    "redirect_to": "flying/basic_flying_mc.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "getting_started/flight_modes.md",
+    "url": "https://docs.px4.io/main/en/getting_started/px4_basic_concepts",
+    "self_url": "https://docs.px4.io/main/en/getting_started/flight_modes",
+    "reason": "redirect stub",
+    "redirect_to": "getting_started/px4_basic_concepts.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "middleware/mavlink.md",
+    "url": "https://docs.px4.io/main/en/mavlink/",
+    "self_url": "https://docs.px4.io/main/en/middleware/mavlink",
+    "reason": "redirect stub",
+    "redirect_to": "mavlink/.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "middleware/micrortps.md",
+    "url": "https://docs.px4.io/main/en/middleware/micrortps",
+    "self_url": "https://docs.px4.io/main/en/middleware/micrortps",
+    "reason": "no substance (prose=131, links=2)",
+    "redirect_to": ""
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "modules/index.md",
+    "url": "https://docs.px4.io/main/en/modules/modules_main",
+    "self_url": "https://docs.px4.io/main/en/modules/",
+    "reason": "redirect stub",
+    "redirect_to": "modules/modules_main.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "msg_docs/unversioned_messages.md",
+    "url": "https://docs.px4.io/main/en/msg_docs/unversioned_messages",
+    "self_url": "https://docs.px4.io/main/en/msg_docs/unversioned_messages",
+    "reason": "no substance (prose=14, links=1)",
+    "redirect_to": ""
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "msg_docs/versioned_messages.md",
+    "url": "https://docs.px4.io/main/en/msg_docs/versioned_messages",
+    "self_url": "https://docs.px4.io/main/en/msg_docs/versioned_messages",
+    "reason": "no substance (prose=14, links=1)",
+    "redirect_to": ""
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "msg_docs/versioned_old_messages.md",
+    "url": "https://docs.px4.io/main/en/msg_docs/versioned_old_messages",
+    "self_url": "https://docs.px4.io/main/en/msg_docs/versioned_old_messages",
+    "reason": "no substance (prose=14, links=1)",
+    "redirect_to": ""
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "peripherals/camera.md",
+    "url": "https://docs.px4.io/main/en/camera/configuration",
+    "self_url": "https://docs.px4.io/main/en/peripherals/camera",
+    "reason": "redirect stub",
+    "redirect_to": "camera/configuration.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "peripherals/camera_t265_vio.md",
+    "url": "https://docs.px4.io/main/en/camera/camera_intel_realsense_t265_vio",
+    "self_url": "https://docs.px4.io/main/en/peripherals/camera_t265_vio",
+    "reason": "redirect stub",
+    "redirect_to": "camera/camera_intel_realsense_t265_vio.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "peripherals/uavcan_escs.md",
+    "url": "https://docs.px4.io/main/en/dronecan/escs",
+    "self_url": "https://docs.px4.io/main/en/peripherals/uavcan_escs",
+    "reason": "redirect stub",
+    "redirect_to": "dronecan/escs.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "power_module/cuav_can_pmu.md",
+    "url": "https://docs.px4.io/main/en/dronecan/cuav_can_pmu",
+    "self_url": "https://docs.px4.io/main/en/power_module/cuav_can_pmu",
+    "reason": "redirect stub",
+    "redirect_to": "dronecan/cuav_can_pmu.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "power_module/pomegranate_systems_pm.md",
+    "url": "https://docs.px4.io/main/en/dronecan/pomegranate_systems_pm",
+    "self_url": "https://docs.px4.io/main/en/power_module/pomegranate_systems_pm",
+    "reason": "redirect stub",
+    "redirect_to": "dronecan/pomegranate_systems_pm.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "robotics/dronekit.md",
+    "url": "https://docs.px4.io/main/en/robotics/#dronekit",
+    "self_url": "https://docs.px4.io/main/en/robotics/dronekit",
+    "reason": "redirect stub",
+    "redirect_to": "robotics/#dronekit.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "ros/index.md",
+    "url": "https://docs.px4.io/main/en/ros2/",
+    "self_url": "https://docs.px4.io/main/en/ros/",
+    "reason": "redirect stub",
+    "redirect_to": "ros2/.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "ros/ros2.md",
+    "url": "https://docs.px4.io/main/en/ros2/",
+    "self_url": "https://docs.px4.io/main/en/ros/ros2",
+    "reason": "redirect stub",
+    "redirect_to": "ros2/.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "ros/ros2_comm.md",
+    "url": "https://docs.px4.io/main/en/ros2/user_guide",
+    "self_url": "https://docs.px4.io/main/en/ros/ros2_comm",
+    "reason": "redirect stub",
+    "redirect_to": "ros2/user_guide.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "ros/ros2_multi_vehicle.md",
+    "url": "https://docs.px4.io/main/en/ros2/multi_vehicle",
+    "self_url": "https://docs.px4.io/main/en/ros/ros2_multi_vehicle",
+    "reason": "redirect stub",
+    "redirect_to": "ros2/multi_vehicle.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "ros/ros2_offboard_control.md",
+    "url": "https://docs.px4.io/main/en/ros2/offboard_control",
+    "self_url": "https://docs.px4.io/main/en/ros/ros2_offboard_control",
+    "reason": "redirect stub",
+    "redirect_to": "ros2/offboard_control.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "sensor/avanon_laser_interface.md",
+    "url": "https://docs.px4.io/main/en/dronecan/avanon_laser_interface",
+    "self_url": "https://docs.px4.io/main/en/sensor/avanon_laser_interface",
+    "reason": "redirect stub",
+    "redirect_to": "dronecan/avanon_laser_interface.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "uart/index.md",
+    "url": "https://docs.px4.io/main/en/uart/",
+    "self_url": "https://docs.px4.io/main/en/uart/",
+    "reason": "no substance (prose=68, links=2)",
+    "redirect_to": ""
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "uavcan/developer.md",
+    "url": "https://docs.px4.io/main/en/dronecan/development",
+    "self_url": "https://docs.px4.io/main/en/uavcan/developer",
+    "reason": "redirect stub",
+    "redirect_to": "dronecan/development.md"
+  },
+  {
+    "doc_set": "PX4",
+    "upstream_path": "uavcan/index.md",
+    "url": "https://docs.px4.io/main/en/can/",
+    "self_url": "https://docs.px4.io/main/en/uavcan/",
+    "reason": "redirect stub",
+    "redirect_to": "can/.md"
+  },
+  {
+    "doc_set": "QGC",
+    "upstream_path": "releases/index.md",
+    "url": "https://docs.qgroundcontrol.com/Stable_V5.0/en/qgc-user-guide/releases/index.html",
+    "self_url": "https://docs.qgroundcontrol.com/Stable_V5.0/en/qgc-user-guide/releases/index.html",
+    "reason": "no substance (prose=66, links=0)",
+    "redirect_to": ""
+  },
+  {
+    "doc_set": "QGC",
+    "upstream_path": "setup_view/tuning_ardupilot.md",
+    "url": "https://docs.qgroundcontrol.com/Stable_V5.0/en/qgc-user-guide/setup_view/tuning_ardupilot.html",
+    "self_url": "https://docs.qgroundcontrol.com/Stable_V5.0/en/qgc-user-guide/setup_view/tuning_ardupilot.html",
+    "reason": "no substance (prose=0, links=2)",
+    "redirect_to": ""
+  }
+]

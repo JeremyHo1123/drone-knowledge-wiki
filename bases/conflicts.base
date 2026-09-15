@@ -1,0 +1,21 @@
+filters:
+  and:
+    - property: has_conflict
+      operator: ==
+      value: "yes"
+
+formulas:
+  age_days: "round((now() - updated).days)"
+
+views:
+  - type: table
+    name: Unresolved cross-source contradictions
+    sort:
+      - property: age_days
+        direction: DESC
+    properties:
+      - title
+      - type
+      - tags
+      - sources
+      - age_days

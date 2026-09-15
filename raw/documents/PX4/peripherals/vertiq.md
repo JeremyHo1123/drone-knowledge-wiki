@@ -1,0 +1,77 @@
+---
+title: "Vertiq All-In-One Motor/ESC Modules"
+type: document
+doc_set: PX4
+doc_version: main
+section: peripherals
+source_url: "https://docs.px4.io/main/en/peripherals/vertiq"
+upstream_repo: "PX4/PX4-Autopilot"
+upstream_path: "peripherals/vertiq.md"
+upstream_commit: "9467506bff09ffe2b4ca5e509c12f9f9b9a1eb55"
+ingested: 2026-07-28
+tags:
+  - docs/px4
+  - docs/px4/peripherals
+---
+
+# Vertiq All-In-One Motor/ESC Modules
+
+Vertiq makes high performance propulsion systems for commercial and defense UAS.
+The core design consists of a lightweight, tightly integrated motor and ESC with an embedded position sensor.
+With closed loop velocity control for the fastest response times available, class leading efficiency, no startup and reverse jitter allowing low speed control and smooth reversibility, and a built in "stow" controller for smoothly placing idle propellers in a preferred direction, Vertiq's modules have significant advantages over other ESCs.
+
+![Vertiq Module Lineup](https://raw.githubusercontent.com/PX4/PX4-Autopilot/main/docs/assets/peripherals/esc_vertiq/vertiq_esc_lineup.jpg)
+
+All Vertiq modules support traditional [PWM input, DShot, OneShot, and Multishot communication protocols](https://iqmotion.readthedocs.io/en/latest/communication_protocols/timer_based_protocol.html). Vertiq's larger modules also support [DroneCAN control](https://iqmotion.readthedocs.io/en/latest/communication_protocols/dronecan_protocol.html).
+
+## Where to Buy
+
+Purchasing information can be found on the [Vertiq website](https://www.vertiq.co/).
+
+## Hardware Setup
+
+### Wiring
+
+Connecting your Vertiq module to a PWM output from your flight controller or DroneCAN bus will vary depending on your model.
+Please see the product data sheets for wiring information.
+
+All Vertiq datasheets can be found at [vertiq.co](https://www.vertiq.co/).
+
+## Firmware Setup
+
+The best tool to configure your Vertiq module is Vertiq's IQ Control Center application.
+You can find instructions for installation in [Getting Started with Speed Modules Using IQ Control Center](https://iqmotion.readthedocs.io/en/latest/control_center_docs/speed_module_getting_started.html).
+
+To get started with traditional PWM input or DShot with your flight controller, please see [PWM and DSHOT Control with a Flight Controller](https://iqmotion.readthedocs.io/en/latest/tutorials/pwm_control_flight_controller.html).
+
+To get started with DroneCAN with your flight controller, please see [DroneCAN Integration with a PX4 Flight Controller](https://iqmotion.readthedocs.io/en/latest/tutorials/dronecan_flight_controller.html).
+
+## Flight Controller Setup
+
+### DroneCAN Configuration
+
+Instructions for integrating the motor/ESC using with DroneCAN can be found in [Flight Controller Configuration](https://iqmotion.readthedocs.io/en/latest/tutorials/dronecan_flight_controller.html#dronecan-integration-with-a-px4-flight-controller) (in _DroneCAN Integration with a PX4 Flight Controller_).
+
+These instructions walk you through setting the correct parameters for enabling the flight controller's DroneCAN drivers, setting the correct configuration parameters for communication with Vertiq modules on the DroneCAN bus, ESC configuration, and testing that your flight controller can properly control your modules over DroneCAN.
+
+#### LED Configuration for Vertiq Modules
+
+::: info
+This configuration is only required if you have the optional [Vertiq LED module add-on](https://www.vertiq.co/add-ons).
+Standard Vertiq ESC modules do not include LEDs.
+:::
+
+Vertiq LED Add-on modules have two LEDs per ESC (RGB for status, White for anti-collision).
+See [DroneCAN Lights](../dronecan/lights.md) for configuration instructions.
+
+The `light_id` for each LED is calculated as: `esc_index × 3 + BASE_ID`, where `BASE_ID` is 1 for RGB and 2 for White.
+
+### DShot/PWM Configuration
+
+Instructions for integrating the motor/ESC using PWM and DShot can be found in [PWM and DShot Control with a Flight Controller](https://iqmotion.readthedocs.io/en/latest/tutorials/pwm_control_flight_controller.html).
+DShot is recommended.
+
+## Further Information
+
+- <https://www.vertiq.co/> — Learn more about Vertiq modules
+- [Vertiq Documentation](https://iqmotion.readthedocs.io/en/latest/index.html) — Additional information about configuring your Vertiq module

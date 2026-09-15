@@ -1,0 +1,17 @@
+filters:
+  and:
+    - property: status
+      operator: ==
+      value: "stale"
+
+views:
+  - type: table
+    name: Superseded pages
+    sort:
+      - property: updated
+        direction: DESC
+    properties:
+      - title
+      - type
+      - superseded_by
+      - updated

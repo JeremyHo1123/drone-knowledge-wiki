@@ -1,0 +1,8 @@
+# Mark binary files explicitly so line-ending conversion (core.autocrlf) never alters them
+*.pdf  binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.webp binary
+*.ulg  binary

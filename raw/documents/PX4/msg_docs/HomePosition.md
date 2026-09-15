@@ -1,0 +1,86 @@
+---
+title: "HomePosition (UORB message)"
+type: document
+doc_set: PX4
+doc_version: main
+section: msg_docs
+source_url: "https://docs.px4.io/main/en/msg_docs/HomePosition"
+upstream_repo: "PX4/PX4-Autopilot"
+upstream_path: "msg_docs/HomePosition.md"
+upstream_commit: "9467506bff09ffe2b4ca5e509c12f9f9b9a1eb55"
+ingested: 2026-07-28
+tags:
+  - docs/px4
+  - docs/px4/msg-docs
+pageClass: is-wide-page
+---
+
+# HomePosition (UORB message)
+
+GPS home position in WGS84 coordinates.
+
+**TOPICS:** home_position
+
+## Fields
+
+| Name                                          | Type      | Unit [Frame] | Range/Enum | Description                                               |
+| --------------------------------------------- | --------- | ------------ | ---------- | --------------------------------------------------------- |
+| <a id="fld_timestamp"></a>timestamp           | `uint64`  |              |            | time since system start (microseconds)                    |
+| <a id="fld_lat"></a>lat                       | `float64` |              |            | Latitude in degrees                                       |
+| <a id="fld_lon"></a>lon                       | `float64` |              |            | Longitude in degrees                                      |
+| <a id="fld_alt"></a>alt                       | `float32` |              |            | Altitude in meters (AMSL)                                 |
+| <a id="fld_x"></a>x                           | `float32` |              |            | X coordinate in meters                                    |
+| <a id="fld_y"></a>y                           | `float32` |              |            | Y coordinate in meters                                    |
+| <a id="fld_z"></a>z                           | `float32` |              |            | Z coordinate in meters                                    |
+| <a id="fld_roll"></a>roll                     | `float32` |              |            | Roll angle in radians                                     |
+| <a id="fld_pitch"></a>pitch                   | `float32` |              |            | Pitch angle in radians                                    |
+| <a id="fld_yaw"></a>yaw                       | `float32` |              |            | Yaw angle in radians                                      |
+| <a id="fld_valid_alt"></a>valid_alt           | `bool`    |              |            | true when the altitude has been set                       |
+| <a id="fld_valid_hpos"></a>valid_hpos         | `bool`    |              |            | true when the latitude and longitude have been set        |
+| <a id="fld_valid_lpos"></a>valid_lpos         | `bool`    |              |            | true when the local position (xyz) has been set           |
+| <a id="fld_valid_attitude"></a>valid_attitude | `bool`    |              |            | true when the orientation (roll, pitch, yaw) has been set |
+| <a id="fld_manual_home"></a>manual_home       | `bool`    |              |            | true when home position was set manually                  |
+| <a id="fld_update_count"></a>update_count     | `uint32`  |              |            | update counter of the home position                       |
+
+## Constants
+
+| Name                                          | Type     | Value | Description |
+| --------------------------------------------- | -------- | ----- | ----------- |
+| <a id="#MESSAGE_VERSION"></a> MESSAGE_VERSION | `uint32` | 2     |
+
+## Source Message
+
+[Source file (GitHub)](https://github.com/PX4/PX4-Autopilot/blob/main/msg/versioned/HomePosition.msg)
+
+::: details Click here to see original file
+
+```c
+# GPS home position in WGS84 coordinates.
+
+uint32 MESSAGE_VERSION = 2
+
+uint64 timestamp			# time since system start (microseconds)
+
+float64 lat				# Latitude in degrees
+float64 lon				# Longitude in degrees
+float32 alt				# Altitude in meters (AMSL)
+
+float32 x				# X coordinate in meters
+float32 y				# Y coordinate in meters
+float32 z				# Z coordinate in meters
+
+float32 roll				# Roll angle in radians
+float32 pitch				# Pitch angle in radians
+float32 yaw				# Yaw angle in radians
+
+bool valid_alt		# true when the altitude has been set
+bool valid_hpos		# true when the latitude and longitude have been set
+bool valid_lpos		# true when the local position (xyz) has been set
+bool valid_attitude	# true when the orientation (roll, pitch, yaw) has been set
+
+bool manual_home	# true when home position was set manually
+
+uint32 update_count 	# update counter of the home position
+```
+
+:::

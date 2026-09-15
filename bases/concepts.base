@@ -1,0 +1,34 @@
+filters:
+  and:
+    - property: type
+      operator: ==
+      value: "concept"
+
+formulas:
+  icon: 'if(has_conflict, "⚠️", "")'
+  source_count: "length(sources)"
+  age_days: "round((now() - updated).days)"
+
+views:
+  - type: table
+    name: All concepts (grouped by tag)
+    groupBy: tags
+    sort:
+      - property: title
+        direction: ASC
+    properties:
+      - title
+      - icon
+      - status
+      - source_count
+      - age_days
+  - type: table
+    name: Most-cited concepts
+    sort:
+      - property: source_count
+        direction: DESC
+    properties:
+      - title
+      - source_count
+      - tags
+      - status

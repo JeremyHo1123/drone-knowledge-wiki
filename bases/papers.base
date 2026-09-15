@@ -1,0 +1,29 @@
+filters:
+  and:
+    - property: type
+      operator: ==
+      value: "summary"
+
+formulas:
+  age_days: "round((now() - updated).days)"
+  icon: 'if(has_conflict, "⚠️", "")'
+
+views:
+  - type: table
+    name: Paper and article summaries (newest first)
+    sort:
+      - property: created
+        direction: DESC
+    properties:
+      - title
+      - icon
+      - tags
+      - created
+      - status
+  - type: table
+    name: Grouped by topic
+    groupBy: tags
+    properties:
+      - title
+      - created
+      - status

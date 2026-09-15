@@ -1,0 +1,65 @@
+---
+title: "ARK MOSAIC-X5 RTK GPS"
+type: document
+doc_set: PX4
+doc_version: main
+section: dronecan
+source_url: "https://docs.px4.io/main/en/dronecan/ark_mosaic__rtk_gps"
+upstream_repo: "PX4/PX4-Autopilot"
+upstream_path: "dronecan/ark_mosaic__rtk_gps.md"
+upstream_commit: "9467506bff09ffe2b4ca5e509c12f9f9b9a1eb55"
+ingested: 2026-07-28
+tags:
+  - docs/px4
+  - docs/px4/dronecan
+---
+
+# ARK MOSAIC-X5 RTK GPS
+
+[ARK MOSAIC-X5 RTK GPS](https://arkelectron.gitbook.io/ark-documentation/sensors/ark-mosaic-x5-rtk-gps) is a made in the USA [DroneCAN](index.md) module featuring the Septentrio Mosaic-X5 RTK GPS, magnetometer, barometer, IMU, buzzer, and safety switch.
+
+![ARK MOSAIC-X5 RTK GPS](https://raw.githubusercontent.com/PX4/PX4-Autopilot/main/docs/assets/hardware/gps/ark/ark_mosaic_rtk_gps.jpg)
+
+## Where to Buy
+
+Order this module from:
+
+- [ARK Electronics](https://arkelectron.com/product/ark-mosaic-x5-gps/) (US)
+
+## Hardware Specifications
+
+- [Open Source Schematic and BOM](https://github.com/ARK-Electronics/ARK_MOSAIC-X5_GPS)
+- Sensors
+  - [Septentrio Mosaic-X5 GPS](https://www.septentrio.com/en/products/gnss-receivers/gnss-receiver-modules/mosaic-x5)
+    - Triple Band L1/L2/L5
+    - [AIM+ jamming protection](https://www.septentrio.com/en/learn-more/advanced-positioning-technology/aim-anti-jamming-protection)
+    - Update rate of 100 Hz
+  - ST IIS2MDC Magnetometer
+  - [Bosch BMP390 Barometer](https://www.bosch-sensortec.com/en/products/environmental-sensors/pressure-sensors/pressure-sensors-bmp390.html)
+  - [Invensense ICM-42688-P 6-Axis IMU](https://www.invensense.tdk.com/en-us/products/6-axis/icm-42688-p)
+- STM32F412VGH6 MCU
+- Connections
+  - Two Pixhawk Standard CAN Connectors (4 Pin JST-GH, 5V Input)
+  - Pixhawk Standard "Basic GPS Port" (6 pin JST-GH, supports `USART3` and I2C2 for external sensors like airspeed or distance)
+  - Pixhawk Standard Debug Connector (6 Pin JST-SH)
+  - USB-C Port (5V Input, USB 2.0 to Mosaic-X5)
+  - Micro-SD Slot for Mosaic-X5 Logging
+  - Mosaic "UART 2" Connector (5 Pin JST-GH with TX, RX, TIMEPULSE, GP1, GND)
+- Power Requirements
+  - 5V
+  - 260mA Average
+  - 340mA Peak
+- LED Indicators
+  - Safety LED
+  - GPS Fix
+  - RTK Status
+  - RGB System Status LED
+- Additional Information
+  - Includes 4 Pin Pixhawk Standard CAN Cable
+  - Triple Band (L1/L2/L5) Helical GPS Antenna
+  - USA Built
+  - Supports DroneCAN Firmware Updating
+
+## See Also
+
+- [ARK MOSAIC-X5 RTK GPS Documentation](https://arkelectron.gitbook.io/ark-documentation/sensors/ark-mosaic-x5-rtk-gps) (ARK Docs)
